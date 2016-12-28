@@ -20,4 +20,6 @@ kitchen create
 kitchen list
 kitchen converge
 kitchen list
+kitchen exec -c 'wget -qO- localhost'
+kitchen destroy
 ```
