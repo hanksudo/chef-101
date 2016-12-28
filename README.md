@@ -18,4 +18,6 @@
 cd cookbooks/learn_chef_apache2
 kitchen create
 kitchen list
+kitchen converge
+kitchen list
 ```
